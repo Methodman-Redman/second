@@ -1,4 +1,17 @@
-## 概要
+## aggenda
+
+``` mermaid
+graph TD
+    A[START] --> B(nmap)
+    B --> C(smbmap)
+    C --> D(smbclient)
+    D --> E(ANALYSIS WINRM_BACKUP.ZIP)
+    E --> F(CRACK AND READ .PFX FILE)
+    F --> G(WINRM)
+    G --> H(PRIVILEGE ESCALATION)
+    H --> I(PASSWORD VIA LAPS)
+    I --> J[END]
+```
 
 ## Search
 ### nmap
