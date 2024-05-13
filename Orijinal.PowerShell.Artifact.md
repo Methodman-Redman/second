@@ -1,4 +1,5 @@
-name: Japan.Orijinal.PowerShell.Artifact
+```
+name: Orijinal.PowerShell.Artifact
 
 parameters:
    - name: Command
@@ -17,4 +18,5 @@ sources:
               "unrestricted", "-c", PowershellScript], length=1000000)
             }, query={
               SELECT * FROM parse_json_array(data=Stdout)
-            })  
+            })
+```
